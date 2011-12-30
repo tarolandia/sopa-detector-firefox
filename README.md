@@ -6,7 +6,7 @@
 
  by Lautaro Orazi (@tarolandia) for MaxCDN.com (@maxcdn) 
 
- Released as open source under a GPLv3 license — fork and contribute at https://github.com/PLEASEADDTHE PROPER LINK HER://github.com/tarolandia/sopa-detector-firefox 
+ Released as open source under a GPLv3 license — fork and contribute at https://github.com/tarolandia/sopa-detector-firefox 
 
  Bugs or suggestions? tweet @maxcdn
 
