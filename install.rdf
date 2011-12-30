@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>jid0-UPq1qFOINa4blezeJa2DpZKATTo@jetpack</em:id>
-    <em:version>Alpha.rev237</em:version>
+    <em:version>Alpha.rev249</em:version>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
     <em:unpack>true</em:unpack>
@@ -17,7 +17,8 @@
 
     <!-- Front End MetaData -->
     <em:name>SOPA Detector</em:name>
-    <em:description></em:description>
+    <em:description>Be notified by a notice bar in your browser, if you&amp;#39;re visiting the website of a company that supports the Stop Online Piracy Act legislation.
+replace text: SOPA supporter</em:description>
     <em:creator>tarolandia</em:creator>
     <em:iconURL/>
     <em:icon64URL/>

@@ -1,11 +1,9 @@
 self.on("message", function(data) {
     switch(data.action){
         case "sopaM":
-            var textM = "This company support SOPA";
+            var textM = "SOPA Supporter detected! This company is a known supporter of the  ‘Stop Online Piracy Act.’";
             var body = $("body").css({"position":"relative","margin-top": "40px"});
             var width = parseInt(body.outerWidth()) - 100;
-            var left = parseInt(body.css("padding-left").replace("px",""));
-            left += parseInt(body.css("margin-left").replace("px",""));
             var message = $("<div id='sopa-mess'>")
             .css({
                 "position": "absolute", 
@@ -16,29 +14,39 @@ self.on("message", function(data) {
                 "background-color": "black",
                 "color": "white",
                 "left": "0px"
-                }
-            ).append($("<p>")
-                .css({
-                    "text-align": "left",
-                    "display": "block",
-                    "float": "left",
-                    "line-height": "40px",
-                    "font-size": "1em",
-                    "margin": "0"
-                    })
-                .text(textM)
-            ).append($("<button >")
-                .css({
-                    "position": "relative", 
-                    "float": "right",
-                    "margin-top": "9px",
-                    })
-                .click(function() {
-                    $("#sopa-mess").remove();
-                    $("body").css({"margin-top": "0","position": "static"});
-                    return false;
                 })
-                .text("close")
+            .append($("<div>")
+                .css({
+                    "position": "relative",
+                    "width": width + "px",
+                    "margin": "0 auto",
+                    "height": "40px"
+                    })
+                .append($("<p>")
+                    .css({
+                        "text-align": "center",
+                        "line-height": "40px",
+                        "font-size": "14px",
+                        "margin": "0",
+                        "font-weight": "bold",
+                        "color": "#ffffff"
+                        })
+                    .text(textM)
+                    .append($("<button title='Close message'>")
+                        .css({
+                            "margin-top": "9px",
+                            "margin-left": "15px",
+                            "background-color": "#ffffff",
+                            "cursor": "pointer"
+                            })
+                        .click(function() {
+                            $("#sopa-mess").remove();
+                            $("body").css({"margin-top": "0","position": "static"});
+                            return false;
+                        })
+                        .text("x")
+                    )
+                )
             );
                 
             body.prepend(message);

@@ -1,7 +1,7 @@
 self.port.on("add",function(data){
     link = $("<a href='http://"+ data.url+"' target='_blank'>").text(data.url);
     if(data.sopa == "1") {
-        var text = " (SOPA detected)";
+        var text = " (SOPA supporter)";
         link.text( link.text() + text);
         $("#list")
             .prepend($("<br>"))

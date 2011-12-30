@@ -1,6 +1,6 @@
 {
  "bootstrap": {
-  "classID": "{38d0a2d1-763b-4810-89d2-58c7452295eb}", 
+  "classID": "{ee9c0d95-71d6-4174-9f5b-7076b63f7f42}", 
   "contractID": "@mozilla.org/harness-service;1?id=jid0-UPq1qFOINa4blezeJa2DpZKATTo@jetpack"
  }, 
  "bundleID": "jid0-UPq1qFOINa4blezeJa2DpZKATTo@jetpack", 
@@ -122,7 +122,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-data/", 
      "mapName": "addon-kit-data", 
-     "mapSHA256": "f93d6703a3868d737af73bdff02ba789c1b9badceaf4b57647ca406bc2e247da"
+     "mapSHA256": "d8f2548c56ee75f3f32362fc47a24f8a594deefa53fce502421816a5dfc1c27b"
     }
    }, 
    "sectionName": "lib"
@@ -191,7 +191,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-data/", 
      "mapName": "addon-kit-data", 
-     "mapSHA256": "f93d6703a3868d737af73bdff02ba789c1b9badceaf4b57647ca406bc2e247da"
+     "mapSHA256": "d8f2548c56ee75f3f32362fc47a24f8a594deefa53fce502421816a5dfc1c27b"
     }
    }, 
    "sectionName": "lib"
@@ -1009,7 +1009,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-sopa-detector-data/", 
      "mapName": "sopa-detector-data", 
-     "mapSHA256": "699b26cf67b18ba6f3adec20a80d7c548173fe52d26e8afe20bfaa6f12fcb6f2"
+     "mapSHA256": "d95a43f0c83c9dbf7ad3135d6c960cab1b41f6ba30bedfbffb496f244dec9aef"
     }, 
     "simple-storage": {
      "uri": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-lib/simple-storage.js"
@@ -1062,9 +1062,10 @@
   }, 
   "sopa-detector": {
    "author": "tarolandia", 
+   "description": "Be notified by a notice bar in your browser, if you&#39;re visiting the website of a company that supports the Stop Online Piracy Act legislation.\nreplace text: SOPA supporter", 
    "main": "main", 
    "name": "sopa-detector", 
-   "version": "Alpha.rev237"
+   "version": "Alpha.rev249"
   }
  }, 
  "name": "sopa-detector", 
