@@ -1,8 +1,13 @@
 # SOPA Detector by MaxCDN.com
 
-Detect those pages supporting SOPA.
-The add-on uses a list of known companies that brings their support to SOPA law.
+ Be notified by a notice bar in your browser, if you're visiting the website of a company that supports the Stop Online Piracy Act legislation.
 
-The list is updated automatically by the addon
+ Boycott? Tweet? Nasty letter? Your call! Take action! It worked very well with GoDaddy ;)
 
-https://addons.mozilla.org/en-US/firefox/addon/sopa-detector/
+ by Lautaro Orazi (@tarolandia) for MaxCDN.com (@maxcdn) 
+
+ Released as open source under a GPLv3 license — fork and contribute at https://github.com/PLEASEADDTHE PROPER LINK HER://github.com/tarolandia/sopa-detector-firefox 
+
+ Bugs or suggestions? tweet @maxcdn
+
+ The list of supporters will be downloaded from http://94.23.211.221:4567/sopalist everytime you open the browser and will be updated every 12 hours.
