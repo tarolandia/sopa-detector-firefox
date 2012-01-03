@@ -33,7 +33,7 @@ exports.main = function(options, callbacks) {
    
     /* Panels */
     var urlPanel = panels.Panel({
-        contentScriptFile: [self.data.url("jquery-1.7.1.js"), self.data.url("widget.js")],
+        contentScriptFile: [self.data.url("jquery-1.7.1.min.js"), self.data.url("widget.js")],
         contentURL: self.data.url("widget.html")
     });
     
@@ -46,7 +46,7 @@ exports.main = function(options, callbacks) {
 
     var settingsPanel = panels.Panel({
         contentScriptFile: [
-            self.data.url("jquery-1.7.1.js"), 
+            self.data.url("jquery-1.7.1.min.js"), 
             self.data.url("settings.js")
         ],
         contentURL: self.data.url("settings.html")
@@ -89,7 +89,7 @@ exports.main = function(options, callbacks) {
         include: "*",
         contentScriptWhen: 'end',
         contentScriptFile: [
-            self.data.url("jquery-1.7.1.js"), 
+            self.data.url("jquery-1.7.1.min.js"), 
             self.data.url("sopamessage.js")
         ],
         onAttach: function(worker) {

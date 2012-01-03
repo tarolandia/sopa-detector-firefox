@@ -1,6 +1,6 @@
 {
  "bootstrap": {
-  "classID": "{ee9c0d95-71d6-4174-9f5b-7076b63f7f42}", 
+  "classID": "{59de1159-bfb4-4945-afe0-0241ebca6924}", 
   "contractID": "@mozilla.org/harness-service;1?id=jid0-UPq1qFOINa4blezeJa2DpZKATTo@jetpack"
  }, 
  "bundleID": "jid0-UPq1qFOINa4blezeJa2DpZKATTo@jetpack", 
@@ -122,7 +122,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-data/", 
      "mapName": "addon-kit-data", 
-     "mapSHA256": "d8f2548c56ee75f3f32362fc47a24f8a594deefa53fce502421816a5dfc1c27b"
+     "mapSHA256": "ce109f853409ba6b15ac86ed2925e04882d72164241a42923930286c8a5e35d6"
     }
    }, 
    "sectionName": "lib"
@@ -191,7 +191,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-data/", 
      "mapName": "addon-kit-data", 
-     "mapSHA256": "d8f2548c56ee75f3f32362fc47a24f8a594deefa53fce502421816a5dfc1c27b"
+     "mapSHA256": "ce109f853409ba6b15ac86ed2925e04882d72164241a42923930286c8a5e35d6"
     }
    }, 
    "sectionName": "lib"
@@ -993,7 +993,7 @@
   }, 
   "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-sopa-detector-lib/main.js": {
    "docsSHA256": null, 
-   "jsSHA256": "fbda7c4a987d0ecc32a286293a118c8f6195d5029a16e89e8d6ea59a78164a00", 
+   "jsSHA256": "ccb07c3fc6243523d73522bb555758af7cd612b64915c874f93039d0bd5532ec", 
    "moduleName": "main", 
    "packageName": "sopa-detector", 
    "requirements": {
@@ -1009,7 +1009,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-sopa-detector-data/", 
      "mapName": "sopa-detector-data", 
-     "mapSHA256": "d95a43f0c83c9dbf7ad3135d6c960cab1b41f6ba30bedfbffb496f244dec9aef"
+     "mapSHA256": "9886d19eee9a86b5e4ab1ca162a80680bc3e31c1437fd8ca1dca0fe74903f6cf"
     }, 
     "simple-storage": {
      "uri": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-lib/simple-storage.js"
@@ -1062,10 +1062,10 @@
   }, 
   "sopa-detector": {
    "author": "tarolandia", 
-   "description": "Be notified by a notice bar in your browser, if you&#39;re visiting the website of a company that supports the Stop Online Piracy Act legislation.\nreplace text: SOPA supporter", 
+   "description": "Be notified by a notice bar in your browser, if you&#39;re visiting the website of a company that supports the Stop Online Piracy Act legislation.", 
    "main": "main", 
    "name": "sopa-detector", 
-   "version": "Alpha.rev249"
+   "version": "Alpha.rev252"
   }
  }, 
  "name": "sopa-detector", 
