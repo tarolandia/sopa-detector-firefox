@@ -1,8 +1,10 @@
 self.port.on("add",function(data){
-    link = $("<a href='http://"+ data.url+"' target='_blank'>").text(data.url);
+    var text = data.url, //data.url === location.hostname
+        href = 'http://' + text,
+        link = $("<a target='_blank'>").attr("href", encodeURI(href));
     if(data.sopa == "1") {
-        var text = " (SOPA supporter)";
-        link.text( link.text() + text);
+        text += " (SOPA supporter)";
+        link.text( text );
         $("#list")
             .prepend($("<br>"))
             .prepend(link);

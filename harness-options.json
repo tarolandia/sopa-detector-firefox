@@ -1,6 +1,6 @@
 {
  "bootstrap": {
-  "classID": "{59de1159-bfb4-4945-afe0-0241ebca6924}", 
+  "classID": "{a9eb59fe-bf60-4888-a752-e69a0aab3236}", 
   "contractID": "@mozilla.org/harness-service;1?id=jid0-UPq1qFOINa4blezeJa2DpZKATTo@jetpack"
  }, 
  "bundleID": "jid0-UPq1qFOINa4blezeJa2DpZKATTo@jetpack", 
@@ -122,7 +122,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-data/", 
      "mapName": "addon-kit-data", 
-     "mapSHA256": "ce109f853409ba6b15ac86ed2925e04882d72164241a42923930286c8a5e35d6"
+     "mapSHA256": "496fa09bfe8e3e307e14f341177d06dee58713899d9b02ff162180c4b8a554ae"
     }
    }, 
    "sectionName": "lib"
@@ -191,7 +191,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-data/", 
      "mapName": "addon-kit-data", 
-     "mapSHA256": "ce109f853409ba6b15ac86ed2925e04882d72164241a42923930286c8a5e35d6"
+     "mapSHA256": "496fa09bfe8e3e307e14f341177d06dee58713899d9b02ff162180c4b8a554ae"
     }
    }, 
    "sectionName": "lib"
@@ -1009,7 +1009,7 @@
     "self": {
      "dataURIPrefix": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-sopa-detector-data/", 
      "mapName": "sopa-detector-data", 
-     "mapSHA256": "9886d19eee9a86b5e4ab1ca162a80680bc3e31c1437fd8ca1dca0fe74903f6cf"
+     "mapSHA256": "f8f23af8db1b7c4b03a03a5d3f27472359c01a8b27da7c8db936d79141dc1e3b"
     }, 
     "simple-storage": {
      "uri": "resource://jid0-upq1qfoina4blezeja2dpzkatto-at-jetpack-addon-kit-lib/simple-storage.js"
@@ -1062,10 +1062,10 @@
   }, 
   "sopa-detector": {
    "author": "tarolandia", 
-   "description": "Be notified by a notice bar in your browser, if you&#39;re visiting the website of a company that supports the Stop Online Piracy Act legislation.", 
+   "description": "Be notified by a notice bar in your browser, if you&#39;re visiting the website of a company that supports the Stop Online Piracy Act legislation.\nAdd encodeURI", 
    "main": "main", 
    "name": "sopa-detector", 
-   "version": "Alpha.rev252"
+   "version": "Alpha.rev254"
   }
  }, 
  "name": "sopa-detector", 
